@@ -1,5 +1,5 @@
 {
-  "name": "__BONES_NEEDS_A_NAME__",
+  "name": "woman-card",
   "version": "0.0.1",
   "description": "A happy little skeleton.",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "deploy-heroku": "bin/deploy-heroku.sh",
     "lint": "esw . --ignore-path .gitignore --ext '.js,.jsx'",
     "lint-watch": "npm run lint -- -w",
-    "prepush": "npm run lint && npm run test"
+    "prepush": "npm run lint"
   },
   "repository": {
     "type": "git",
